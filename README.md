@@ -1,4 +1,4 @@
-# CheckoutAssignment
+# Checkout Test Assignment
 
 Instructions to run the code:
 
