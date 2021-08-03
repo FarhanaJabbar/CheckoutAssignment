@@ -30,4 +30,4 @@ Instructions to run the code:
 	3.2- TransactionRepositoryTests: To run the repository Tests, we need to provide the connection string in TransactionRepositoryTests Constructor line#20, to the DB where we have run the migrations in step 1.4.
 
 	3.3- PaymentAcceptanceTests, required running CheckoutAPI instance in IISExpress. To do this, from Visual Studio Menu, choose Debug=>Start Without Debuging.
-		and then from from Test explorer, Run all TransactionRepositoryTests.
+		and then from from Test explorer, Run all PaymentAcceptanceTests.
