@@ -7,13 +7,13 @@ Instructions to run the code:
 	
 	1.1- Please configure the connection string in the settings to your SQL server instance.
 	1.2- Open Powershell command prompt from VS developer tools. 
-	1.3- Make sure you have instsalled .NET Core CLI tools. If not installed, then from run command:  dotnet tool install --global dotnet-ef
-	1.4- To create DB, change directory to CheckoutApi and runcommand: dotnet ef database update 
+	1.3- Make sure you have instsalled .NET Core CLI tools. If not installed, then run command:  dotnet tool install --global dotnet-ef
+	1.4- To create DB, change directory to CheckoutApi and run command: dotnet ef database update 
 
 2- API Endpoints
 
 	There are 3 endpoints in this solution
-	2.1-Token API, Which is needed for authorization. I am using Auth0 as authentication/authorization provider. To retrieve the token , use the following cred in token request.
+	2.1-Token API, Which is needed for authorization. I am using Auth0 as authentication/authorization provider. To retrieve the token, use the following credentials in token request.
 		username: Farhana.Jabbar 
 		password: Password123!
 
